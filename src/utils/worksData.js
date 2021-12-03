@@ -3,7 +3,7 @@ const workHistory = [
     position: `Frontend developer at "Indianapolis Public Schools"`,
     period: "July 2016 - December 2016",
     target: "Application for a governmental structure to manage school trips.",
-    tools: "JavaScript, Webpack, React, Redux, Material Design.",
+    tools: "JavaScript, React, Redux, Material Design.",
   },
   {
     position: `Frontend developer at "GameDay Graphics"`,
@@ -25,7 +25,7 @@ const workHistory = [
     target:
       "Application is part of the Nigerian Gas Flare Commercialisation Programme (NGFCP) for tracking fuel trucks.",
     tools:
-      "JavaScript, React, Redux, Redux-Saga, Reselect, Webpack, Bootstrap, Google API.",
+      "JavaScript, React, Redux, Redux-Saga, Reselect, Webpack, Bootstrap, Google API, Material Design.",
   },
   {
     position: `Senior frontend developer at "Detalex GmbH"`,
@@ -54,7 +54,7 @@ const workHistory = [
     period: "March 2021 - April 2021",
     target: "Application-portfolio for photographer.",
     tools:
-      "JavaScript, React, Redux, Redux-Saga, Reselect, Redux-Sauce, Webpack, Bootstrap 4, Docker.",
+      "JavaScript, React, Redux, Redux-Saga, Reselect, Redux-Sauce, Webpack, Material Design.",
   },
 ];
 
