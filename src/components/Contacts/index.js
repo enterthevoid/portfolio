@@ -69,7 +69,7 @@ const contacts = [
   { target: "Telegram", profile: "the_voider" },
   {
     target: "LinkedIn",
-    profile: "/martin-burlik-b8550a155/",
+    profile: "/martin-burlyk-b8550a155/",
   },
 ];
 
