@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@mui/styles";
-import workHistory from "./data";
+import workHistory from "../../utils/worksData";
 import { useWindowDimensions } from "../../utils/helpers";
 
 const useStyles = makeStyles((theme) => ({
