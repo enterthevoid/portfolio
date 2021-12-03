@@ -57,7 +57,7 @@ const AnimateBox = ({ id }) => {
   return (
     <mesh ref={mesh}>
       <boxBufferGeometry
-        args={downMediumScreen ? [1, 3, 1] : [1, 3, 4]}
+        args={downMediumScreen ? [1, 3, 2] : [1, 3, 4]}
         attach="geometry"
       />
       <meshNormalMaterial attach="material" />

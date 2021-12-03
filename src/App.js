@@ -5,7 +5,6 @@ import shallow from "zustand/shallow";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import IconButton from "@mui/material/IconButton";
 import { Link as ScrollTo } from "react-scroll";
-import TextGradient from "react-dynamic-text-gradients";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Header from "./components/Header";
@@ -14,11 +13,11 @@ import DynamicFab from "./components/DynamicFab";
 import { AnimateBox, useStore } from "./components/AnimateBox";
 import { useWindowDimensions } from "./utils/helpers";
 
-const useStyles = makeStyles((theme) => ({
-  app: ({ innerHeight }) => ({
+const useStyles = makeStyles({
+  app: {
     position: "relative",
-    height: innerHeight,
-  }),
+    height: "100vh",
+  },
   canvas: {
     position: "fixed !important",
     background: "rgb(0 30 60) !important",
@@ -64,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
   spacer: {
     height: "100vh",
   },
-}));
+});
 
 function App() {
   const { downMediumScreen, upMediumScreen, innerHeight } =
@@ -106,18 +105,7 @@ function App() {
       <Header />
 
       <div className={classes.homeScreen}>
-        <h1>
-          Hello, my name is
-          <span>
-            <TextGradient
-              text="Martin"
-              className={classes.gradientComponent}
-              colors={["#7142F4", "#5FFBF1", "#AAA3FF", "#FAF23A", "#AB41FF"]}
-              gradientAngle={90}
-            />
-          </span>
-          and I'm front-end developer
-        </h1>
+        <h1>Hello, my name is Martin and I'm front-end developer</h1>
 
         {upMediumScreen && (
           <ScrollTo className={classes.scrollButton} to="about" spy smooth>

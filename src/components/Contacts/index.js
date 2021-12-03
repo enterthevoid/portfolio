@@ -69,7 +69,7 @@ const contacts = [
   { target: "Telegram", profile: "the_voider" },
   {
     target: "LinkedIn",
-    profile: "https://www.linkedin.com/in/martin-burlik-b8550a155/",
+    profile: "/martin-burlik-b8550a155/",
   },
 ];
 
@@ -92,7 +92,7 @@ const Contacts = () => {
 
               {elem.target === "LinkedIn" && (
                 <a
-                  href={elem.profile}
+                  href={`https://www.linkedin.com/in${elem.profile}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
