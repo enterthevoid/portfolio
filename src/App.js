@@ -105,7 +105,7 @@ function App() {
       <Header />
 
       <div className={classes.homeScreen}>
-        <h1>Hello, my name is Martin and I'm front-end developer</h1>
+        <h1>Hello, my name is Martin and I'm frontend developer</h1>
 
         {upMediumScreen && (
           <ScrollTo className={classes.scrollButton} to="about" spy smooth>
