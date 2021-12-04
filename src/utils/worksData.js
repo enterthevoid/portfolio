@@ -29,7 +29,7 @@ const workHistory = [
   },
   {
     position: `Senior frontend developer at "Detalex GmbH"`,
-    period: "June 2019 - present",
+    period: "September 2019 - present",
     target:
       "Working as a freelancer and consultant, building frontend applications using react js stack.",
     tools:
