@@ -26,7 +26,7 @@ const DynamicFab = () => {
       let currentScrollPos = window.pageYOffset;
 
       if (currentScrollPos > 600) {
-        setOpacity(0.64);
+        setOpacity(1);
       } else {
         setOpacity(0);
       }

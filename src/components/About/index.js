@@ -80,18 +80,15 @@ const About = () => {
         <div className={classes.contentWrapper}>
           <div className={classes.photo} />
           <h3>
-            My name is Martin Burlyk, I was born in Uzhhorod, Ukraine in 1991.
-            Working as a frontend developer from 2016 and I can say that I am a
-            punctual and motivated individual who is able to work in a busy
-            environment and produce high standards of work. <br /> Very
-            concerned about the quality of my work and always seek for ways of
-            improvement, flexible, highly reliable and possess excellent time
-            keeping skills. <br /> Quick learner and willing to adapt to any
-            job. I have a creative mind and I'm always up for new challenges,
-            like to invent new things and love to follow and learn new trends in
-            UI/UX branch. <br /> Also speak on 4 languages. <br />
-            My hobbies are guitar and cycling, also love to travel.
-            <br />
+            Hi, I'm Martin Burlyk, born in Uzhgorod, Ukraine, in 1991. Working
+            as a frontend developer since 2016. Punctual and motivated
+            individual, able to work in a busy environment and maintain high
+            working standards. It is crucial for me to sustain quality of my
+            projects thus I permanently seek for ways to improve them. Being a
+            quick learner, I posses excellent time keeping skills, am flexible
+            and reliable. My creative mind is always up for new challenges,
+            inventing new things, keeping up with trends in UI/UX branch. Except
+            development, my passion is playing guitar, cycling and traveling.
             Scroll bellow to see empoyment history and contacts.
           </h3>
         </div>

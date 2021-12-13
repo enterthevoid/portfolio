@@ -10,7 +10,6 @@ const useStyles = makeStyles({
     flexDirection: "row !important",
     justifyContent: "center",
     background: "#000815 !important",
-    color: "white",
   },
   button: {
     color: "white !important",

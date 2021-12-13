@@ -54,12 +54,6 @@ const useStyles = makeStyles({
       fill: "white",
     },
   },
-  gradientComponent: ({ downMediumScreen }) => ({
-    fontSize: downMediumScreen ? 72 : 128,
-    margin: 0,
-    padding: "0px !important",
-    width: "fit-content",
-  }),
   spacer: {
     height: "100vh",
   },

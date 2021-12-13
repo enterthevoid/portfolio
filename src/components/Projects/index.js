@@ -3,12 +3,12 @@ import { makeStyles } from "@mui/styles";
 import workHistory from "../../utils/worksData";
 import { useWindowDimensions } from "../../utils/helpers";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles({
   worksPageWrapper: ({ downMediumScreen }) => ({
     display: "flex",
     flexDirection: downMediumScreen ? "column" : "row",
     padding: downMediumScreen ? 16 : 42,
-    lineHeight: 1.4,
+    // lineHeight: 1.4,
   }),
   title: ({ downMediumScreen }) => ({
     flex: 1,
@@ -46,22 +46,21 @@ const useStyles = makeStyles((theme) => ({
     marginTop: downMediumScreen ? 12 : 8,
     marginBottom: 8,
     fontStyle: "italic",
-    // opacity: 0.6,
   }),
   target: ({ downMediumScreen }) => ({
     fontSize: downMediumScreen ? 20 : 22,
     marginTop: 8,
     marginBottom: 8,
-    opacity: 0.9,
+    opacity: 0.82,
   }),
   tools: ({ downMediumScreen }) => ({
     fontSize: downMediumScreen ? 20 : 22,
     marginTop: 8,
     marginBottom: 0,
     fontStyle: "italic",
-    opacity: 0.6,
+    opacity: 0.64,
   }),
-}));
+});
 
 const Projects = () => {
   const { downMediumScreen } = useWindowDimensions();
