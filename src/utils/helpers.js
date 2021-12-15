@@ -4,7 +4,7 @@ const getWindowDimensions = () => {
   const { innerWidth, innerHeight } = window;
   const downMediumScreen = innerWidth < 900;
   const upMediumScreen = innerWidth > 900;
-  const mediumScreen = innerWidth > 900 && innerWidth < 1320;
+  const mediumScreen = innerWidth > 900 && innerWidth < 1442;
 
   return {
     innerWidth,

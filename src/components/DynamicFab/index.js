@@ -12,7 +12,7 @@ const useStyles = makeStyles({
     right: 24,
   },
   fab: {
-    background: "#04a026 !important",
+    background: "rgb(4 160 38) !important",
   },
 });
 

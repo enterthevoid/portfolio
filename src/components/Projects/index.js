@@ -42,7 +42,7 @@ const useStyles = makeStyles({
   }),
   period: ({ downMediumScreen }) => ({
     fontSize: 18,
-    color: "#04a026",
+    color: "rgb(4 160 38)",
     marginTop: downMediumScreen ? 12 : 8,
     marginBottom: 8,
     fontStyle: "italic",

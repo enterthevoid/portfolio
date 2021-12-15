@@ -3,7 +3,7 @@ import { makeStyles } from "@mui/styles";
 import { Link as ScrollTo } from "react-scroll";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import IconButton from "@mui/material/IconButton";
-import photo from "../../img/photo.jpg";
+import photo from "../../img/photo.png";
 import { useWindowDimensions } from "../../utils/helpers";
 
 const useStyles = makeStyles({
@@ -26,7 +26,6 @@ const useStyles = makeStyles({
       paddingTop: 24,
       paddingLeft: downMediumScreen ? 16 : "auto",
       marginTop: 0,
-      fontFamily: "Josefin Sans",
     },
 
     "& h3": {
@@ -55,7 +54,7 @@ const useStyles = makeStyles({
     borderRadius: downMediumScreen ? "4px 4px 0px 0px" : "4px 0px 0px 4px",
     background: `url(${photo})`,
     backgroundSize: "cover",
-    backgroundPositionX: "36%",
+    backgroundPosition: mediumScreen || downMediumScreen ? "0% 25%" : "50% 0%",
   }),
   scrollButton: {
     position: "absolute",
@@ -94,7 +93,7 @@ const About = () => {
         </div>
       </div>
 
-      {upMediumScreen && (
+      {upMediumScreen && !mediumScreen && (
         <ScrollTo className={classes.scrollButton} to="works" spy smooth>
           <IconButton>
             <ArrowDownwardIcon size="large" />
