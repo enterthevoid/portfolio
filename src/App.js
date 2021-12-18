@@ -18,10 +18,17 @@ const useStyles = makeStyles({
     position: "relative",
     height: "100vh",
   },
-  canvas: {
+  canvas: ({ downMediumScreen }) => ({
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     position: "fixed !important",
     background: "rgb(0 30 60) !important",
-  },
+    "& > canvas": {
+      width: downMediumScreen ? "80% !important" : "auto",
+      height: downMediumScreen ? "80% !important" : "auto",
+    },
+  }),
   mask: ({ downMediumScreen }) => ({
     position: "fixed",
     background: downMediumScreen ? "rgba(0 0 0 / 58%)" : "rgba(0 0 0 / 62%)",
