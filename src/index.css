@@ -2,6 +2,7 @@ body {
   background: rgb(0 30 60);
   user-select: none;
   overflow-y: none;
+  line-height: 1.4;
   margin: 0;
   font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",

@@ -47,7 +47,6 @@ const useStyles = makeStyles({
     alignItems: "center",
     flexDirection: "column",
     fontSize: downMediumScreen ? 34 : 64,
-    lineHeight: 1,
 
     "& h1": {
       padding: downMediumScreen ? 24 : 42,

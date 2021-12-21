@@ -17,7 +17,7 @@ const workHistory = [
     period: "May 2017 - September 2019",
     target: "Application for making real time bets on American Football",
     tools:
-      "JavaScript, React, Redux, Redux-Saga, Reselect, Puppeteer, Cypress, Phantome JS, Webpack, Material Design.",
+      "JavaScript, React, Redux, Redux-Saga, Reselect, Puppeteer, Cypress, Phantom JS, Webpack, Material Design.",
   },
   {
     position: `Frontend developer at "Department of Petroleum Resources in Nigeria"`,
@@ -40,7 +40,7 @@ const workHistory = [
     period: "October 2019 - April 2020",
     target: "PWA SSR Application for managing employees using report system.",
     tools:
-      "JavaScript, React, Next JS, Cypress, Redux, Redux-Saga, Reselect, Redux-Sauce, Webpack, Bootstrap 4, Docker.",
+      "JavaScript, React, Next JS, Cypress, Redux, Redux-Saga, Reselect, Webpack, Bootstrap 4, Docker.",
   },
   {
     position: `Senior frontend developer at "Richnerstutz AG"`,

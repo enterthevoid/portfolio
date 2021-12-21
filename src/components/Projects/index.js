@@ -8,7 +8,6 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: downMediumScreen ? "column" : "row",
     padding: downMediumScreen ? 16 : 42,
-    // lineHeight: 1.4,
   }),
   title: ({ downMediumScreen }) => ({
     flex: 1,
@@ -42,7 +41,7 @@ const useStyles = makeStyles({
   }),
   period: ({ downMediumScreen }) => ({
     fontSize: 18,
-    color: "rgb(4 160 38)",
+    color: "#068f10",
     marginTop: downMediumScreen ? 12 : 8,
     marginBottom: 8,
     fontStyle: "italic",
@@ -59,6 +58,7 @@ const useStyles = makeStyles({
     marginBottom: 0,
     fontStyle: "italic",
     opacity: 0.64,
+    lineHeight: 1.6,
   }),
 });
 

@@ -1,10 +1,17 @@
 {
   "short_name": "Martin's Portfolio",
   "name": "Martin's Portfolio",
+  "theme_color": "rgb(0 30 60)",
+  "background_color": "rgb(0 30 60)",
+  "description": "Martin's Portfolio",
+  "scope": ".",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "32x32 24x24 16x16",
+      "sizes": "50x50",
       "type": "image/x-icon"
     },
     {
@@ -15,11 +22,7 @@
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "517x517"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "rgb(0 30 60)",
-  "background_color": "rgb(0 30 60)"
+  ]
 }
